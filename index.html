@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Шрифты -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
+    <!-- Стили -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicons/favicon.svg" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon.png">
+    <title>Дмитрий Гаврилин - портфолио работ</title>
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <img src="images/photo.jpg" srcset="images/photo-2x.jpg 2x" alt="Laptop" class="header__img">
+            <div class="header__desc">
+                <h1 class="header__title">Дмитрий Гаврилин</h1>
+                <p class="header__text">фрилансер, веб-разработчик, создание сайтов</p>
+                <div class="header__buttons">
+                    <a href="#works" class="header__button">Портфолио</a>
+                    <a href="#contacts" class="header__button">Контакты</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <video class="header__video" autoplay muted loop>
+        <source type="video/mp4" src="images/codding.mp4" />
+    </video>
+</header>
+
+<section class="works" id="works">
+    <div class="container">
+        <h2 class="works__title">Портфолио</h2>
+        <div class="works__inner">
+            <div class="works__item">
+                <a href="./panto.html" target="_blank" class="item__link-img">
+                    <img src="images/project1.jpg" srcset="images/project1-2x.jpg 2x" alt="Project One" class="item__img">
+                </a>
+                <a href="./panto.html" target="_blank" class="item__link">Сайт магазина мебели</a>
+            </div>
+            <div class="works__item">
+                <a href="./travel.html" target="_blank" class="item__link-img">
+                    <img src="images/project2.jpg" srcset="images/project2-2x.jpg 2x" alt="Project Two" class="item__img">
+                </a>
+                <a href="./travel.html" target="_blank" class="item__link">Сайт туристического агентства</a>
+            </div>
+            <div class="works__item">
+                <a href="./house.html" target="_blank" class="item__link-img">
+                    <img src="images/project3.jpg" srcset="images/project3-2x.jpg 2x" alt="Project Three" class="item__img">
+                </a>
+                <a href="./house.html" target="_blank" class="item__link">Сайт жилого комплекса</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contacts" id="contacts">
+    <div class="container">
+        <h2 class="contacts__title">Контакты</h2>
+        <div class="contacts__inner">
+            <a href="https://t.me/accountname" class="contacts__link" target="_blank">
+                <img src="images/telegram.svg" alt="Telegram"> Написать в Telegram
+            </a>
+            <a href="https://wa.me/79150693777" class="contacts__link" target="_blank">
+                <img src="images/whatsapp.svg" alt="Whatsapp"> Отправить в WhatsApp
+            </a>
+            <a href="https://vk.me/accountname" class="contacts__link" target="_blank">
+                <img src="images/vk.svg" alt="Vk"> Связаться Вконтакте
+            </a>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__copy">
+            © Дмитрий Гавриоин HTML верстальщик, создание сайтов Москва
+        </div>
+    </div>
+</footer>
+
+
+<script src="js/main.js"></script>
+</body>
+</html>
